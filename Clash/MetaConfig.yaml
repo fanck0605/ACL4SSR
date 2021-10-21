@@ -1,0 +1,59 @@
+hosts:
+  dot.pub:
+  - 1.12.12.12
+  - 120.53.53.53
+  doh.pub:
+  - 1.12.12.12
+  - 120.53.53.53
+  dns.alidns.com:
+  - 223.5.5.5
+  - 223.6.6.6
+  one.one.one.one:
+  - 1.1.1.1
+  - 1.0.0.1
+  cloudflare-dns.com:
+  - 1.1.1.1
+  - 1.0.0.1
+  dns.google:
+  - 8.8.8.8
+  - 8.8.4.4
+  dns.quad9.net:
+  - 9.9.9.9
+  - 149.112.112.112
+  dot.sb:
+  - 185.222.222.222
+  - 45.11.45.11
+  doh.sb:
+  - 185.222.222.222
+  - 45.11.45.11
+  doh.opendns.com:
+  - 208.67.222.222
+  - 208.67.220.220
+
+dns:
+  ipv6: true
+  respect-rules: true
+  proxy-server-nameserver:
+  - tls://dot.pub:853
+  - https://doh.pub/dns-query
+  - tls://dns.alidns.com:853
+  - https://dns.alidns.com/dns-query
+  nameserver:
+  - 114.114.114.114
+  - 119.29.29.29
+  - tls://dot.pub:853
+  - https://doh.pub/dns-query
+  - 223.5.5.5
+  - tls://dns.alidns.com:853
+  - https://dns.alidns.com/dns-query
+  nameserver-policy:
+    geosite:gfw:
+    - tls://one.one.one.one:853
+    - https://cloudflare-dns.com/dns-query
+    - tls://dns.google:853
+    - https://dns.google/dns-query
+    - tls://dns.quad9.net:853
+    - https://dns.quad9.net/dns-query
+    - tls://dot.sb:853
+    - https://doh.sb/dns-query
+    - https://doh.opendns.com/dns-query

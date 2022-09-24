@@ -24,7 +24,8 @@ const parserList = {
 
                 return `host-suffix,aaplimg.com,Apple
 host-suffix,apple.co,Apple
-host-suffix,apple.com,Apple`
+host-suffix,apple.com,Apple
+`
                 
                 return ruleList
                     .map(rule => convertRulePolicy(rule, policyMap))

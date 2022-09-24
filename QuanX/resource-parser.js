@@ -22,8 +22,10 @@ const parserList = {
                     .filter(line => line)
                     .filter(line => !line.startsWith("#"))
 
-
-                return ruleList.map(rule => convertRulePolicy(rule, policyMap)).join('\n')
+                return ruleList
+                    .map(rule => convertRulePolicy(rule, policyMap))
+                    .slice(0,3)
+                    .join('\n')
             },
         }
     })($resource)

@@ -34,10 +34,11 @@ let isDone = false;
 
 for (const parser of Object.values(parserList)) {
     if (parser.support()) {
-        $notify("hello", "hello", "hello")
-        $done({
+        const result = {
             content: parser.parse()
-        })
+        }
+        $notify("hello", "hello", result.content)
+        $done(result)
         isDone = true
         break;
     }

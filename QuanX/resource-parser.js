@@ -1,3 +1,5 @@
+$notify("hello", "hello", $resource.content)
+
 const parserList = {
     quanX: (function ($resource) {
         function convertRulePolicy(rule, policyMap) {

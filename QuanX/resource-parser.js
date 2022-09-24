@@ -34,6 +34,7 @@ let isDone = false;
 
 for (const parser of Object.values(parserList)) {
     if (parser.support()) {
+        $notify("hello", "hello", "hello")
         $done({
             content: parser.parse()
         })

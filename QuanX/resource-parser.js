@@ -47,14 +47,14 @@ for (const parser of Object.values(parserList)) {
             content: parser.parse()
         }
         $notify("hello", "hello", result.content)
-        $done(result)
+        $done({content: $resource.content})
         isDone = true
         break;
     }
 }
 
-if (!isDone) {
-    $done({
-        error: "not supported!"
-    })
-}
+// if (!isDone) {
+//     $done({
+//         error: "not supported!"
+//     })
+// }

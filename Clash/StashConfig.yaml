@@ -2,12 +2,7 @@ dns:
   follow-rule: true
   ipv6: true
   nameserver:
-  - 114.114.114.114
-  - 119.29.29.29
-  - tls://dot.pub:853
   - https://doh.pub/dns-query
-  - 223.5.5.5
-  - tls://dns.alidns.com:853
   - https://dns.alidns.com/dns-query
   nameserver-policy:
     +.000webhost.com: https://cloudflare-dns.com/dns-query

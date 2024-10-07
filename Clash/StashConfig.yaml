@@ -1,3 +1,5 @@
+mode: rule
+log-level: warning
 dns:
   ipv6: true
   follow-rule: true

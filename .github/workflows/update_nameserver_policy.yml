@@ -32,7 +32,9 @@ jobs:
 
       - name: Update nameserver policy
         working-directory: ./Clash
-        run: uv run update_nameserver_policy.py --input StashConfig.yaml --output StashConfig.yaml
+        run: |
+          uv run update_nameserver_policy.py --config StashConfig.yaml
+          uv run update_nameserver_policy.py --config MetaConfig.yaml
 
       - name: Should push
         run: |

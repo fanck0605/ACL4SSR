@@ -1,6 +1,10 @@
 dns:
-  follow-rule: true
   ipv6: true
+  follow-rule: true
+  default-nameserver:
+  - 114.114.114.114
+  - 119.29.29.29
+  - 223.5.5.5
   nameserver:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
@@ -6057,14 +6061,3 @@ dns:
     +.zzcartoon.com: https://cloudflare-dns.com/dns-query
     +.zzcloud.me: https://cloudflare-dns.com/dns-query
     +.zzux.com: https://cloudflare-dns.com/dns-query
-hosts:
-  cloudflare-dns.com: 1.0.0.1
-  dns.alidns.com: 223.6.6.6
-  dns.google: 8.8.8.8
-  dns.quad9.net: 9.9.9.9
-  doh.opendns.com: 208.67.222.222
-  doh.pub: 1.12.12.12
-  doh.sb: 45.11.45.11
-  dot.pub: 120.53.53.53
-  dot.sb: 185.222.222.222
-  one.one.one.one: 1.1.1.1

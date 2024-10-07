@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # /// script
-# requires-python = ">=3.12"
+# requires-python = ">=3.12,<4"
 # dependencies = [
-#     "pyyaml",
-#     "requests",
+#     "pyyaml>=6.0.2,<7",
+#     "requests>=2.32.3,<3",
 # ]
 # ///
 import argparse
@@ -11,6 +11,7 @@ import base64
 import logging
 import re
 import sys
+from collections.abc import Iterable
 from urllib.parse import urlparse, unquote
 
 import requests
@@ -96,30 +97,26 @@ def get_domain_sld(domain: str, tlds: set[str]) -> str:
     raise ValueError(f"{domain} not found in tlds")
 
 
+def first_or_none[T](d: Iterable[T]) -> T | None:
+    try:
+        return next(iter(d))
+    except StopIteration:
+        return None
+
+
 def main() -> None:
     logging.basicConfig(level=logging.INFO)
 
     parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--dns",
-        help="Trusted DNS",
-        default="https://cloudflare-dns.com/dns-query",
-    )
     parser.add_argument(
         "--blacklist",
         help="Custom black list",
         default="blacklist.txt",
     )
     parser.add_argument(
-        "-i",
-        "--input",
-        help="Input file path",
-        default="StashConfig.yaml",
-    )
-    parser.add_argument(
-        "-o",
-        "--output",
-        help="Output file path",
+        "-c",
+        "--config",
+        help="Clash config file path",
         default="StashConfig.yaml",
     )
     parser.add_argument(
@@ -151,18 +148,26 @@ def main() -> None:
 
     blacklist = {*gfwlist, *custom_blacklist}
 
-    with open(args.input, "r") as fp:
+    with open(args.config, "r") as fp:
         config = yaml.safe_load(fp)
 
     dns_config = config.get("dns") or {}
-    nameserver_policy = {}
-    for domain in sorted(blacklist):
-        nameserver_policy[f"+.{domain}"] = args.dns
+    nameserver_policy = dns_config.get("nameserver-policy") or {}
+    trusted_nameserver = (
+        first_or_none(nameserver_policy.values())
+        or "https://cloudflare-dns.com/dns-query"
+    )
+
+    nameserver_policy = {
+        f"+.{domain}": trusted_nameserver for domain in sorted(blacklist)
+    }
+    if not nameserver_policy:
+        nameserver_policy["do-not-remove"] = trusted_nameserver
     dns_config["nameserver-policy"] = nameserver_policy
     config["dns"] = dns_config
 
-    with open(args.output, "w", newline="") as fp:
-        yaml.safe_dump(config, fp, allow_unicode=True)
+    with open(args.config, "w", newline="") as fp:
+        yaml.safe_dump(config, fp, allow_unicode=True, sort_keys=False)
 
 
 if __name__ == "__main__":

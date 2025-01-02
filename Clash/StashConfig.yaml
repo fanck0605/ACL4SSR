@@ -725,7 +725,8 @@ dns:
     +.brookings.edu: https://cloudflare-dns.com/dns-query
     +.brucewang.net: https://cloudflare-dns.com/dns-query
     +.brutaltgp.com: https://cloudflare-dns.com/dns-query
-    +.bt2mag.com: https://cloudflare-dns.com/dns-query
+    +.bsky.app: https://cloudflare-dns.com/dns-query
+    +.bsky.social: https://cloudflare-dns.com/dns-query
     +.bt95.com: https://cloudflare-dns.com/dns-query
     +.btaia.com: https://cloudflare-dns.com/dns-query
     +.btbtav.com: https://cloudflare-dns.com/dns-query
@@ -1252,6 +1253,7 @@ dns:
     +.debug.com: https://cloudflare-dns.com/dns-query
     +.deck.ly: https://cloudflare-dns.com/dns-query
     +.decodet.co: https://cloudflare-dns.com/dns-query
+    +.deepai.org: https://cloudflare-dns.com/dns-query
     +.deepmind.com: https://cloudflare-dns.com/dns-query
     +.deezer.com: https://cloudflare-dns.com/dns-query
     +.definebabe.com: https://cloudflare-dns.com/dns-query
@@ -1329,6 +1331,7 @@ dns:
     +.dnssec.net: https://cloudflare-dns.com/dns-query
     +.dnvod.tv: https://cloudflare-dns.com/dns-query
     +.docker.com: https://cloudflare-dns.com/dns-query
+    +.docs.new: https://cloudflare-dns.com/dns-query
     +.doctorvoice.org: https://cloudflare-dns.com/dns-query
     +.documentingreality.com: https://cloudflare-dns.com/dns-query
     +.dogfartnetwork.com: https://cloudflare-dns.com/dns-query
@@ -1595,6 +1598,7 @@ dns:
     +.fa.gov.tw: https://cloudflare-dns.com/dns-query
     +.facebook.br: https://cloudflare-dns.com/dns-query
     +.facebook.com: https://cloudflare-dns.com/dns-query
+    +.facebook.de: https://cloudflare-dns.com/dns-query
     +.facebook.design: https://cloudflare-dns.com/dns-query
     +.facebook.hu: https://cloudflare-dns.com/dns-query
     +.facebook.in: https://cloudflare-dns.com/dns-query
@@ -2348,6 +2352,7 @@ dns:
     +.greenvpn.org: https://cloudflare-dns.com/dns-query
     +.grindr.com: https://cloudflare-dns.com/dns-query
     +.grotty-monday.com: https://cloudflare-dns.com/dns-query
+    +.ground.news: https://cloudflare-dns.com/dns-query
     +.grow.google: https://cloudflare-dns.com/dns-query
     +.gs-discuss.com: https://cloudflare-dns.com/dns-query
     +.gsearch.media: https://cloudflare-dns.com/dns-query
@@ -2389,16 +2394,12 @@ dns:
     +.h528.com: https://cloudflare-dns.com/dns-query
     +.h5dm.com: https://cloudflare-dns.com/dns-query
     +.h5galgame.me: https://cloudflare-dns.com/dns-query
-    +.hacg.club: https://cloudflare-dns.com/dns-query
-    +.hacg.in: https://cloudflare-dns.com/dns-query
-    +.hacg.li: https://cloudflare-dns.com/dns-query
-    +.hacg.me: https://cloudflare-dns.com/dns-query
-    +.hacg.red: https://cloudflare-dns.com/dns-query
     +.hacken.cc: https://cloudflare-dns.com/dns-query
     +.hacker.org: https://cloudflare-dns.com/dns-query
     +.hackmd.io: https://cloudflare-dns.com/dns-query
     +.hackthatphone.net: https://cloudflare-dns.com/dns-query
     +.hahlo.com: https://cloudflare-dns.com/dns-query
+    +.haijiao.com: https://cloudflare-dns.com/dns-query
     +.hakkatv.org.tw: https://cloudflare-dns.com/dns-query
     +.handcraftedsoftware.org: https://cloudflare-dns.com/dns-query
     +.hanime.tv: https://cloudflare-dns.com/dns-query
@@ -2448,6 +2449,7 @@ dns:
     +.here.com: https://cloudflare-dns.com/dns-query
     +.heritage.org: https://cloudflare-dns.com/dns-query
     +.heroku.com: https://cloudflare-dns.com/dns-query
+    +.herokuapp.com: https://cloudflare-dns.com/dns-query
     +.heungkongdiscuss.com: https://cloudflare-dns.com/dns-query
     +.hexieshe.com: https://cloudflare-dns.com/dns-query
     +.hexieshe.xyz: https://cloudflare-dns.com/dns-query
@@ -2586,6 +2588,7 @@ dns:
     +.howtoforge.com: https://cloudflare-dns.com/dns-query
     +.hoxx.com: https://cloudflare-dns.com/dns-query
     +.hpa.gov.tw: https://cloudflare-dns.com/dns-query
+    +.hpjav.com: https://cloudflare-dns.com/dns-query
     +.hqcdp.org: https://cloudflare-dns.com/dns-query
     +.hqjapanesesex.com: https://cloudflare-dns.com/dns-query
     +.hqmovies.com: https://cloudflare-dns.com/dns-query
@@ -2672,6 +2675,7 @@ dns:
     +.iask.bz: https://cloudflare-dns.com/dns-query
     +.iask.ca: https://cloudflare-dns.com/dns-query
     +.iav19.com: https://cloudflare-dns.com/dns-query
+    +.iavian.net: https://cloudflare-dns.com/dns-query
     +.ibiblio.org: https://cloudflare-dns.com/dns-query
     +.ibit.am: https://cloudflare-dns.com/dns-query
     +.iblist.com: https://cloudflare-dns.com/dns-query
@@ -3335,6 +3339,7 @@ dns:
     +.meshrep.com: https://cloudflare-dns.com/dns-query
     +.mesotw.com: https://cloudflare-dns.com/dns-query
     +.messenger.com: https://cloudflare-dns.com/dns-query
+    +.meta.com: https://cloudflare-dns.com/dns-query
     +.metacafe.com: https://cloudflare-dns.com/dns-query
     +.metafilter.com: https://cloudflare-dns.com/dns-query
     +.metart.com: https://cloudflare-dns.com/dns-query
@@ -3955,6 +3960,7 @@ dns:
     +.pcanywhere.net: https://cloudflare-dns.com/dns-query
     +.pcc.gov.tw: https://cloudflare-dns.com/dns-query
     +.pcdvd.com.tw: https://cloudflare-dns.com/dns-query
+    +.pcgamestorrents.com: https://cloudflare-dns.com/dns-query
     +.pchome.com.tw: https://cloudflare-dns.com/dns-query
     +.pcij.org: https://cloudflare-dns.com/dns-query
     +.pcloud.com: https://cloudflare-dns.com/dns-query
@@ -4497,6 +4503,7 @@ dns:
     +.sharpdaily.tw: https://cloudflare-dns.com/dns-query
     +.shat-tibet.com: https://cloudflare-dns.com/dns-query
     +.shattered.io: https://cloudflare-dns.com/dns-query
+    +.sheets.new: https://cloudflare-dns.com/dns-query
     +.sheikyermami.com: https://cloudflare-dns.com/dns-query
     +.shellfire.de: https://cloudflare-dns.com/dns-query
     +.shemalez.com: https://cloudflare-dns.com/dns-query
@@ -4589,6 +4596,7 @@ dns:
     +.sleazydream.com: https://cloudflare-dns.com/dns-query
     +.slheng.com: https://cloudflare-dns.com/dns-query
     +.slickvpn.com: https://cloudflare-dns.com/dns-query
+    +.slides.new: https://cloudflare-dns.com/dns-query
     +.slideshare.net: https://cloudflare-dns.com/dns-query
     +.slime.com.tw: https://cloudflare-dns.com/dns-query
     +.slinkset.com: https://cloudflare-dns.com/dns-query
@@ -4606,6 +4614,7 @@ dns:
     +.smith.edu: https://cloudflare-dns.com/dns-query
     +.smyxy.org: https://cloudflare-dns.com/dns-query
     +.snapchat.com: https://cloudflare-dns.com/dns-query
+    +.snapseed.com: https://cloudflare-dns.com/dns-query
     +.snaptu.com: https://cloudflare-dns.com/dns-query
     +.sndcdn.com: https://cloudflare-dns.com/dns-query
     +.sneakme.net: https://cloudflare-dns.com/dns-query
@@ -5144,6 +5153,7 @@ dns:
     +.torrentproject.se: https://cloudflare-dns.com/dns-query
     +.torrenty.org: https://cloudflare-dns.com/dns-query
     +.torrentz.eu: https://cloudflare-dns.com/dns-query
+    +.tortoisesvn.net: https://cloudflare-dns.com/dns-query
     +.torvpn.com: https://cloudflare-dns.com/dns-query
     +.totalvpn.com: https://cloudflare-dns.com/dns-query
     +.toutiaoabc.com: https://cloudflare-dns.com/dns-query
@@ -5567,6 +5577,7 @@ dns:
     +.vporn.com: https://cloudflare-dns.com/dns-query
     +.vpser.net: https://cloudflare-dns.com/dns-query
     +.vraiesagesse.net: https://cloudflare-dns.com/dns-query
+    +.vrchat.com: https://cloudflare-dns.com/dns-query
     +.vrmtr.com: https://cloudflare-dns.com/dns-query
     +.vrsmash.com: https://cloudflare-dns.com/dns-query
     +.vs.com: https://cloudflare-dns.com/dns-query
@@ -5672,6 +5683,7 @@ dns:
     +.wha.la: https://cloudflare-dns.com/dns-query
     +.whatblocked.com: https://cloudflare-dns.com/dns-query
     +.whatbrowser.org: https://cloudflare-dns.com/dns-query
+    +.whats.new: https://cloudflare-dns.com/dns-query
     +.whatsapp.com: https://cloudflare-dns.com/dns-query
     +.whatsapp.net: https://cloudflare-dns.com/dns-query
     +.whatsonweibo.com: https://cloudflare-dns.com/dns-query

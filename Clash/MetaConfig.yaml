@@ -744,7 +744,8 @@ dns:
     +.brookings.edu: *id001
     +.brucewang.net: *id001
     +.brutaltgp.com: *id001
-    +.bt2mag.com: *id001
+    +.bsky.app: *id001
+    +.bsky.social: *id001
     +.bt95.com: *id001
     +.btaia.com: *id001
     +.btbtav.com: *id001
@@ -1271,6 +1272,7 @@ dns:
     +.debug.com: *id001
     +.deck.ly: *id001
     +.decodet.co: *id001
+    +.deepai.org: *id001
     +.deepmind.com: *id001
     +.deezer.com: *id001
     +.definebabe.com: *id001
@@ -1348,6 +1350,7 @@ dns:
     +.dnssec.net: *id001
     +.dnvod.tv: *id001
     +.docker.com: *id001
+    +.docs.new: *id001
     +.doctorvoice.org: *id001
     +.documentingreality.com: *id001
     +.dogfartnetwork.com: *id001
@@ -1614,6 +1617,7 @@ dns:
     +.fa.gov.tw: *id001
     +.facebook.br: *id001
     +.facebook.com: *id001
+    +.facebook.de: *id001
     +.facebook.design: *id001
     +.facebook.hu: *id001
     +.facebook.in: *id001
@@ -2367,6 +2371,7 @@ dns:
     +.greenvpn.org: *id001
     +.grindr.com: *id001
     +.grotty-monday.com: *id001
+    +.ground.news: *id001
     +.grow.google: *id001
     +.gs-discuss.com: *id001
     +.gsearch.media: *id001
@@ -2408,16 +2413,12 @@ dns:
     +.h528.com: *id001
     +.h5dm.com: *id001
     +.h5galgame.me: *id001
-    +.hacg.club: *id001
-    +.hacg.in: *id001
-    +.hacg.li: *id001
-    +.hacg.me: *id001
-    +.hacg.red: *id001
     +.hacken.cc: *id001
     +.hacker.org: *id001
     +.hackmd.io: *id001
     +.hackthatphone.net: *id001
     +.hahlo.com: *id001
+    +.haijiao.com: *id001
     +.hakkatv.org.tw: *id001
     +.handcraftedsoftware.org: *id001
     +.hanime.tv: *id001
@@ -2467,6 +2468,7 @@ dns:
     +.here.com: *id001
     +.heritage.org: *id001
     +.heroku.com: *id001
+    +.herokuapp.com: *id001
     +.heungkongdiscuss.com: *id001
     +.hexieshe.com: *id001
     +.hexieshe.xyz: *id001
@@ -2605,6 +2607,7 @@ dns:
     +.howtoforge.com: *id001
     +.hoxx.com: *id001
     +.hpa.gov.tw: *id001
+    +.hpjav.com: *id001
     +.hqcdp.org: *id001
     +.hqjapanesesex.com: *id001
     +.hqmovies.com: *id001
@@ -2691,6 +2694,7 @@ dns:
     +.iask.bz: *id001
     +.iask.ca: *id001
     +.iav19.com: *id001
+    +.iavian.net: *id001
     +.ibiblio.org: *id001
     +.ibit.am: *id001
     +.iblist.com: *id001
@@ -3354,6 +3358,7 @@ dns:
     +.meshrep.com: *id001
     +.mesotw.com: *id001
     +.messenger.com: *id001
+    +.meta.com: *id001
     +.metacafe.com: *id001
     +.metafilter.com: *id001
     +.metart.com: *id001
@@ -3974,6 +3979,7 @@ dns:
     +.pcanywhere.net: *id001
     +.pcc.gov.tw: *id001
     +.pcdvd.com.tw: *id001
+    +.pcgamestorrents.com: *id001
     +.pchome.com.tw: *id001
     +.pcij.org: *id001
     +.pcloud.com: *id001
@@ -4516,6 +4522,7 @@ dns:
     +.sharpdaily.tw: *id001
     +.shat-tibet.com: *id001
     +.shattered.io: *id001
+    +.sheets.new: *id001
     +.sheikyermami.com: *id001
     +.shellfire.de: *id001
     +.shemalez.com: *id001
@@ -4608,6 +4615,7 @@ dns:
     +.sleazydream.com: *id001
     +.slheng.com: *id001
     +.slickvpn.com: *id001
+    +.slides.new: *id001
     +.slideshare.net: *id001
     +.slime.com.tw: *id001
     +.slinkset.com: *id001
@@ -4625,6 +4633,7 @@ dns:
     +.smith.edu: *id001
     +.smyxy.org: *id001
     +.snapchat.com: *id001
+    +.snapseed.com: *id001
     +.snaptu.com: *id001
     +.sndcdn.com: *id001
     +.sneakme.net: *id001
@@ -5163,6 +5172,7 @@ dns:
     +.torrentproject.se: *id001
     +.torrenty.org: *id001
     +.torrentz.eu: *id001
+    +.tortoisesvn.net: *id001
     +.torvpn.com: *id001
     +.totalvpn.com: *id001
     +.toutiaoabc.com: *id001
@@ -5586,6 +5596,7 @@ dns:
     +.vporn.com: *id001
     +.vpser.net: *id001
     +.vraiesagesse.net: *id001
+    +.vrchat.com: *id001
     +.vrmtr.com: *id001
     +.vrsmash.com: *id001
     +.vs.com: *id001
@@ -5691,6 +5702,7 @@ dns:
     +.wha.la: *id001
     +.whatblocked.com: *id001
     +.whatbrowser.org: *id001
+    +.whats.new: *id001
     +.whatsapp.com: *id001
     +.whatsapp.net: *id001
     +.whatsonweibo.com: *id001
